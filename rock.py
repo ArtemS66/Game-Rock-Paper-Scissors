@@ -6,7 +6,7 @@ spisok = ['камень', 'ножницы', 'бумага']
 computer_choice= random.choice(spisok)  #прописываю глобальные переменные
 
 while (user_choice != 'камень' and user_choice != 'ножницы' and user_choice != 'бумага'):
-    user_choice = input('Выберите знак: Камень, ножницы или бумага')  #запрашиваю выбор игрока
+    user_choice = input('Выберите знак: камень, ножницы или бумага')  #запрашиваю выбор игрока
 
 if computer_choice == user_choice:
     winner = 'Ничья'
